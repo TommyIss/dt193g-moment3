@@ -1,3 +1,4 @@
+import MoviesView from '@/views/MoviesView.vue'
 import StartView from '@/views/StartView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -8,6 +9,11 @@ const router = createRouter({
       path: '/',
       name: 'startsida',
       component: StartView
+    },
+    {
+      path: '/movies',
+      name: 'movies',
+      component: MoviesView
     }
   ],
 })

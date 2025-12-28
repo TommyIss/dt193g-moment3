@@ -14,8 +14,9 @@ import webp from '@/images/main-pic.jpg?format=webp'
       <source :srcset="avif" type="image/avif">
       <source :srcset="webp" type="image/webp">
       <img :src="jpg" alt="Netflix-logo med bakomliggande filmer">
-
     </picture>
+
+    <RouterView />
     
   </main>
   
@@ -28,6 +29,9 @@ import webp from '@/images/main-pic.jpg?format=webp'
     max-width: 800px;
     min-height: 400px;
     margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
   }
   img {
     width: 100%;

@@ -9,3 +9,59 @@ body {
     line-height: 2.6em;
     width: 100%;
 }
+
+table, div, h2, p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 1% auto;
+}
+table {
+    border: 1px solid black;
+}
+
+td {
+    margin: 0 1%;
+    padding: 0 4px;
+    border: 1px solid black;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+th {
+    background-color: #3B9797;
+    border: 1px solid black;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #3B9797;
+    color: white;
+}
+
+button {
+    padding: 0.6em;
+    background-color: #A53860;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #71C0BB;
+}
+#deleteBtn:hover {
+    background-color: crimson;
+}
+@media screen and (max-width: 700px) {
+    table {
+        width: 90%;
+    }
+    table, button {
+        font-size: 0.7em;
+    }
+    td {
+        margin: 0 1%;
+        padding: 0 2px;
+    }
+}

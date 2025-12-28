@@ -23,7 +23,7 @@
             </button> 
             <ul class="nav-list">
                 <li><RouterLink to="/">Startsida</RouterLink></li>
-                <li><RouterLink to="#">Filmer</RouterLink></li>
+                <li><RouterLink to="/movies">Filmer</RouterLink></li>
                 <li><RouterLink to="#">Information</RouterLink></li>
             </ul>
         </nav>
@@ -61,7 +61,9 @@
                 menuDisplay.value === 'block' && 
                 menuRef.value && 
                 !menuRef.value.contains(event.target) &&
-                (!openBtnRef.value || !openBtnRef.value.contains(event.target))
+                (!openBtnRef.value || !openBtnRef.value.contains(event.target) && 
+                window.innerWidth <= 800
+            )
             ) {
                 menuDisplay.value = 'none';
             }
