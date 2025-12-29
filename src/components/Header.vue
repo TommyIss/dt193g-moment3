@@ -24,7 +24,7 @@
             <ul class="nav-list">
                 <li><RouterLink to="/">Startsida</RouterLink></li>
                 <li><RouterLink to="/movies">Filmer</RouterLink></li>
-                <li><RouterLink to="#">Information</RouterLink></li>
+                <li><RouterLink to="/info">Information</RouterLink></li>
             </ul>
         </nav>
     </header>

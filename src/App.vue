@@ -37,4 +37,12 @@ import webp from '@/images/main-pic.jpg?format=webp'
     width: 100%;
     height: 300px;
   }
+  @media screen and (max-width: 800px) {
+    img {
+      height: 200px;
+    }
+    main {
+      margin: 0 2%;
+    }
+}
 </style>

@@ -1,5 +1,9 @@
 
 /* Body-element */
+/* html {
+    margin: 0;
+    padding: 0;
+} */
 body {
     background-color: #FFF0DC;
     margin: 0 auto;
@@ -7,10 +11,10 @@ body {
     max-width: 1200px;
     border: solid 2px black;
     line-height: 2.6em;
-    width: 100%;
+    /* width: 100%; */
 }
 
-table, div, h2, p {
+table, p {
     width: 90%;
     margin: 0 auto;
 }
@@ -53,7 +57,7 @@ button:hover {
 #deleteBtn:hover {
     background-color: crimson;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     table {
         width: 90%;
     }
